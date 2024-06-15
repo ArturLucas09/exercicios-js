@@ -1,0 +1,36 @@
+<!--
+Crie uma página que calcule a média de quatro notas inseridas pelo usuário. 
+Exiba se o aluno foi aprovado (média >= 7) ou reprovado (média < 7).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Descruba sua média</h1>
+    <div>
+        <label for="nota 1">Nota 1 :</label> 
+        <input type="number" id="nota1" > <br><br>
+        <label for="nota 2">Nota 2 :</label> 
+        <input type="number" id="nota2" > <br><br>
+        <label for="nota 3">Nota 3 :</label> 
+        <input type="number" id="nota3" > <br><br>
+        <label for="nota 4">Nota 4 :</label> 
+        <input type="number" id="nota4" > <br> <br>
+
+        <button onclick="media()">Calcular</button>
+    </div>
+    
+    <div>
+        <p id="resultado"></p>
+    </div>
+
+
+    <script src="ex01.js"></script>
+</body>
+</html>
